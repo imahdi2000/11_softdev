@@ -17,3 +17,15 @@ p{
 ul{
     list-style-type: square;
 }
+
+.extreme{
+  color: lightsteelblue;
+}
+
+.content{
+  text-align: center;
+}
+
+.prose{
+    background: green;
+}
