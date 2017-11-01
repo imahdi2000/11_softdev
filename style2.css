@@ -1,0 +1,28 @@
+body{
+  border: 1px solid white;
+  background-color: black;
+}
+
+h1{
+     font-family: comic sans;
+     color: white
+}
+
+h3{
+    color: white;
+}
+
+h2{
+  color: white;
+}
+
+ul{
+     list-style-type: upper-roman;
+      color: white;
+}
+
+p{
+     text-align: right;
+     color: white;
+
+}
