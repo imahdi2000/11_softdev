@@ -1,0 +1,67 @@
+body{
+  margin: 0;
+  background-image: url("star.jpg");
+}
+
+#tehlulz {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #D90368;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#grail {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+li a:hover:not(.active) {
+    background-color: #820263;
+}
+
+.active {
+    background-color: #820263;
+}
+
+h1,h2,h3{
+  text-align: center;
+}
+
+.upper{
+  background-color: #FFD400;
+  padding-left: 25px;
+}
+
+.wrapper{
+  width: 45%;
+  padding-left: 25px;
+  background-color: #2E294E;
+  color: white;
+  float:left;
+}
+
+
+.animate{
+    position: relative;
+    animation-name: dragon;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    float: left;
+}
+@keyframes dragon {
+    0%   {left:0px; top:0px;}
+    25%  {left:190px; top:0px;}
+    50%  {left:0px; top:0px;}
+    75%  {left:190px; top:0px;}
+    100% {left:0px; top:0px;}
+}
